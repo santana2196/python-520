@@ -1,21 +1,20 @@
-NOME = input('Digite o Nome: ')
-IDADE = input('idade: ')
-CPF = input('cpf: ')
+nome = input('Digite o Nome: ')
+idade = int(input('idade: '))
+cpf = input('cpf: ')
 
 print('------------------')
-print(f'Nome: {NOME}')
-print(f'Idade: {IDADE}')
-print(f'Cpf: {CPF}')
+print(f'Nome: {nome}')
+print(f'Idade: {idade}')
+print(f'Cpf: {cpf}')
 print('------------------')
 
+texto = 'Umxpratoxdextrigoxparaxtrêsxtigresxtristes'
+print(texto.replace('x', ' '))
 
-TEXTO = 'Umxpratoxdextrigoxparaxtrêsxtigresxtristes'
-print(TEXTO.replace('x', ' '))
-
-Num0 = input('Digite primeiro numero')
-Num1 = input('Digite segundo numero')
-Soma = Num0 + Num1
-Sobra = Num0 - Num1
+num0 = int(input('Digite primeiro numero: '))
+num1 = int(input('Digite segundo numero: '))
+Soma = num0 + num1
+Sobra = num0 - num1
 
 print(f'Soma: {Soma}')
 print(f'Sobra: {Sobra}')
